@@ -18,7 +18,7 @@ Having the compiled code packaged up at this step also helps to enforce the  sam
 Create a YAML pipeline to build your code and produce artifacts for deployment. A build should have the associated Work Items and Commits attached. The build should only trigger on Pull Requests on the master branch.
 
 ## Hints
-- Building all the services seperately using multiple YAML files may take longer but will provide you more flexability in the future and reduce the time spent waiting for a build to finish, you can leverage build filters to only rebuild code that has changed.
+- Building all the services seperately using multiple YAML files may take longer but will provide you more flexibility in the future and reduce the time spent waiting for a build to finish, you can leverage build filters to only rebuild code that has changed.
 
 ## Helpful resources
 - [Build, test, and deploy .NET Core apps](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/dotnet-core?view=azure-devops])
